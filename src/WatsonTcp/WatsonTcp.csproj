@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1;net461;net462;net48;net5.0;net6.0;net7.0</TargetFrameworks>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1;net48;net5.0;net6.0;net7.0</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<Version>5.1.2</Version>
@@ -18,9 +18,9 @@
 		<PackageIconUrl></PackageIconUrl>
 		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
 		<PackageIcon>watson.png</PackageIcon>
-		<SignAssembly>True</SignAssembly>
+		<!--<SignAssembly>True</SignAssembly>
 		<AssemblyOriginatorKeyFile>C:\Code\Watson\WatsonTcp\src\watsontcp.snk</AssemblyOriginatorKeyFile>
-		<DelaySign>False</DelaySign>
+		<DelaySign>False</DelaySign>-->
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netcoreapp3.1|AnyCPU'">
@@ -83,7 +83,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="System.Text.Json" Version="7.0.0" />
+		<PackageReference Include="System.Text.Json" Version="6.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
