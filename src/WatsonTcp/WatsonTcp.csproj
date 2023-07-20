@@ -4,7 +4,7 @@
 		<TargetFrameworks>netstandard2.0;net6.0;net7.0</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<Version>5.1.2</Version>
+		<Version>5.1.5</Version>
 		<Authors>Joel Christner</Authors>
 		<Company>Joel Christner</Company>
 		<Description>A simple C# async TCP server and client with integrated framing for reliable transmission and receipt of data</Description>
@@ -21,6 +21,8 @@
 		<!--<SignAssembly>True</SignAssembly>
 		<AssemblyOriginatorKeyFile>C:\Code\Watson\WatsonTcp\src\watsontcp.snk</AssemblyOriginatorKeyFile>
 		<DelaySign>False</DelaySign>-->
+	</PropertyGroup>
+
 	</PropertyGroup>
 
 
